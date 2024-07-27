@@ -1,14 +1,14 @@
-# Hit and Blowゲームを行うコードです．
+# Implementation of Hit and blow game using c language
 
-## Hit and Blowゲームとは
+## What's Hit and Blow game?
 
-4桁の数字を当てるゲームを行います．
-このときプレイヤーは4桁の数字を入力し，その数字と答えの数字との一致している桁数を得ることができます．
-入力した数字が答えの数字と位置まで一致している場合にはHit，数字は一致しているが，位置が間違っている場合にはBlowとして出力されます．
-しかしどの桁の数字がHitやBlowしているのかはわかりません．
-また答えの各桁の数字は重複がないようにしています．
-例えば1234が答えだった場合，1345を入力すると，1Hit,2Blowとなります．
-何回でクリアできるか是非挑戦してみてください．
+The game is played by guessing a four-digit number.
+The player enters a 4-digit number and gets the number of digits that match the number of the answer.
+If the number matches the answer, the player gets a “Hit”; if the number matches but is in the wrong position, the player gets a “Blow”.
+However, it is not known which digit is the Hit or Blow digit.
+Also, each digit in the answer is made to have no duplicates.
+For example, if the answer is 1234, entering 1345 will result in 1 Hit and 2 Blows.
+Please try to see how many times you can complete the puzzle.
 
-## 実行例
+## Example
 ![スクリーンショット 2024-07-26 145956](https://github.com/user-attachments/assets/e8f1f682-8764-45ee-8302-ce4cb7a7958f)
