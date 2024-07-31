@@ -1,10 +1,11 @@
 #include "header.h"
 
+int answer[10], input[N];
+
 int main(void) {
 	int i ,j, count = 1;
 
-	Initialization();
-	get_answer();
+	make_answer();
 
 	while(1){
 		unsigned short hit = 0,blow = 0;	//hit数、blow数保存用変数の初期化
