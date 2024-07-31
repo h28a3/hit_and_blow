@@ -3,7 +3,7 @@
 #include<time.h>
 #define N 4	//ヒットアンドブローゲームの桁数(1~10)
 
-int answer[10], input[N];
+extern int answer[10], input[N];
 
 void Initialization(void);
 
