@@ -5,6 +5,7 @@ int answer[10], input[N];
 int main(void) {
 	int i ,j, count = 1;
 
+	srand((unsigned int)time(NULL));
 	make_answer();
 
 	while(1){
